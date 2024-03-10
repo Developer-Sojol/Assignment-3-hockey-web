@@ -30,7 +30,7 @@
    </style>
 </head>
 <body class="container mx-auto bg-white max-w-[1440px]">
-   <header class="container mx-auto md:container md:mx-auto md:max-w-[1140px]">
+   <header class="container mx-auto md:container md:mx-auto md:max-w-[1140px] relative">
       <nav class="pt-5">
          <div class="navbar bg-white">
             <div class="navbar-start">
@@ -66,6 +66,8 @@
             </div>
           </div>
       </nav>
+
+
             <!-- Slider----start -->
       <div class="carousel ">
          <div id="slide1" class="carousel-item relative w-full">
@@ -83,10 +85,17 @@
              <a href="#slide1" class="btn btn-circle">❯</a>
            </div>        
        </div>
+        
+       <div class=" bg-[#131318] p-3  md:p-8  rounded-xl top-[300px] absolute  md:top-[450px] md:left-[550px]">
+          <h1 class="text-white font-bold text-xl ">Meet all the heroes from the field</h1>
+          <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam <br>
+          turpis placerat dolor. Purus urna in sit nullam proin. </p>
+       </div>
+ 
    </header>
    <main class="md:container md:mx-auto">
           <!-- Club Section -->
-        <section class="container mx-auto mt-5 md:container md:mx-auto md:mt-28 md:max-w-[1140px] ">
+        <section class="container mt-32 mx-auto  md:container md:mx-auto md:mt-28 md:max-w-[1140px] ">
             <div class="text-black text-center border-dashed  border-y border-[#1313181a]  p-12">  
               <h1 class="text-4xl font-bold pb-4">Professional Hockeys Club</h1>
               <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat <br> dolor. Purus urna in sit nullam proin. </p>
@@ -452,7 +461,49 @@
                </ul>
             </div>
           </section>
-
    </main>
+
+   <footer class="footer mt-16 p-10 md: bg-base-200 text-base-content">
+    <aside class="text bg-center">
+      <h2 class="text-white text-xl font-bold ">Get In Touch</h2>
+      <p>ADit amet consectetur. Condimentum <br> adipiscing aliquam turpis placerat dolor. Purus <br>
+        urna in sit nullam proin. </p>
+        <div class="flex gap-2 items-center">
+          <i class="fa-regular fa-envelope text-red-500"></i>
+          <p>hockeys@support.com</p>
+        </div>     
+        <div class="flex gap-2 items-center">
+          <i class="fa-solid fa-phone text-red-500"></i>
+          <p>(+62) 123-321-543</p>
+        </div>
+      
+    </aside>    
+         
+          <nav class="text-center">
+            <h6 class="footer-title text-white">Company</h6> 
+            <a class="link link-hover">About us</a>
+            <a class="link link-hover">Leadership</a>
+            <a class="link link-hover">Careers</a>
+            <a class="link link-hover">News & Articles</a>
+            <a class="link link-hover">Ligal Notice</a>
+          </nav> 
+          <nav>
+            <h6 class="footer-title text-white">Support</h6> 
+            <a class="link link-hover">Help Center</a>
+            <a class="link link-hover">FAQ</a>
+            <a class="link link-hover">Ticket Support</a>
+            <a class="link link-hover">Contact us</a>
+          </nav> 
+  
+          <nav>
+            <h6 class="footer-title text-white">Service</h6> 
+            <a class="link link-hover">Academy</a>
+            <a class="link link-hover">Group lesson</a>
+            <a class="link link-hover">Private Lesson</a>
+            <a class="link link-hover">Hockeys For Kids</a>
+            <a class="link link-hover">Hockeys For Adult</a>
+          </nav>
+         
+  </footer>
 </body>
 </html>
